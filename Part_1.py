@@ -20,5 +20,11 @@ z = np.polyfit(b,a,1)
 
 p = np.poly1d(z)
 
-plt.scatter(p(b),b)
+plt.scatter(p(b),b+a)
+plt.show()
+
+#########Exercise 3############
+k = np.cumsum(a)
+
+plt.plot(b,k)
 plt.show()
