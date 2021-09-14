@@ -39,8 +39,13 @@ mean = [0,0]
 co_var = [[1,-0.5],[-0.5,2]]
 
 
-# mult_norm = mlt.rvs(mean=mean,cov=co_var , size=1000)
+mult_norm = mlt.rvs(mean=mean,cov=co_var , size=1000)
 # plt.scatter(mult_norm[:,0], mult_norm[:,1])
 # plt.show()
 # print(mult_norm([2,3]))
 # print(mult_norm)
+
+
+############## Exercise 5#####################
+
+
